@@ -1,0 +1,25 @@
+{
+    "name": "ryanaby/lumen-auth-key",
+    "description": "Authorize requests using auth key(s)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Aby",
+            "email": "aby@ryanaby.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ryanaby\\LumenAuthKey\\Providers\\AuthKeyServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ryanaby\\LumenAuthKey\\": "src/"
+        }
+    }
+}
